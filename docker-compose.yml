@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+     frontend:
+        image: manojbabu/frontend:v1
+        build: .
+        ports:
+          - 8079
+     
